@@ -1,0 +1,89 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Estilos para el encabezado */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos para la sección principal */
+  section {
+    padding: 20px;
+  }
+  
+  .featured-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .featured-section h3 {
+    color: #333;
+  }
+  
+  .testimonial {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #333;
+  }
+  
+  .testimonial h3 {
+    color: #333;
+  }
+  
+  .testimonial blockquote {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .testimonial blockquote p {
+    font-style: italic;
+    margin: 0;
+  }
+  
+  .testimonial blockquote cite {
+    font-weight: bold;
+  }
+  
+  /* Estilos para el pie de página */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
